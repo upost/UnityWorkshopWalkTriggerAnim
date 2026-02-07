@@ -9,7 +9,7 @@ public class TriggerExample : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log("trigger enter collider " + other);
-        Animation a = animatedCharacter.GetComponent<Animation>();
+        Animator a = animatedCharacter.GetComponent<Animator>();
         a.Play(animationToPlay);
        
     }
