@@ -185,6 +185,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c61e3ca0923dc5db5b889a5d9551ee91, type: 3}
       insertIndex: -1
       addedObject: {fileID: 988196278}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c61e3ca0923dc5db5b889a5d9551ee91, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 988196281}
   m_SourcePrefab: {fileID: 100100000, guid: c61e3ca0923dc5db5b889a5d9551ee91, type: 3}
 --- !u!1 &330585543
 GameObject:
@@ -462,6 +465,7 @@ GameObject:
   - component: {fileID: 808269164}
   - component: {fileID: 808269163}
   - component: {fileID: 808269162}
+  - component: {fileID: 808269166}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -563,6 +567,30 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!205 &808269166
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 808269160}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 0, z: 0}
+  m_Size: 1
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers: []
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers: []
+  - screenRelativeHeight: 0.1
+    fadeTransitionWidth: 0
+    renderers: []
+  m_Enabled: 1
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -643,6 +671,30 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c61e3ca0923dc5db5b889a5d9551ee91, type: 3}
   m_PrefabInstance: {fileID: 174007027}
   m_PrefabAsset: {fileID: 0}
+--- !u!205 &988196281
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 988196276}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 0, z: 0}
+  m_Size: 1
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers: []
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers: []
+  - screenRelativeHeight: 0.1
+    fadeTransitionWidth: 0
+    renderers: []
+  m_Enabled: 1
 --- !u!1 &1158125656 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: cbf2866051bbdb292a66a85c8e61f62d, type: 3}
